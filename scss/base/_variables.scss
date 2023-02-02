@@ -1,0 +1,17 @@
+/*--variables--*/
+
+$colores:
+#1b1b1b,
+red,
+whitesmoke,
+white;
+
+/*--mixins--*/
+
+@mixin flex($flex, $justify, $direction, $text, $align){
+    display: $flex;
+    justify-content: $justify;
+    flex-direction: $direction;
+    text-align: $text;
+    align-items: $align;
+}

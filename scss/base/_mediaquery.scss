@@ -1,0 +1,80 @@
+/*!------MEDIA QUERY------*/
+/*! Responsive 1290px */
+@media screen and (max-width:1290px){
+    header {
+        flex-direction: column;
+    }
+    header a h1 nav ul {
+        font-size: 1rem;
+    }
+}
+/*! Responsive 1080px */
+@media screen and (max-width:1080px){
+    .servicioDiv img{
+        width: 43rem;
+        height: 43rem;
+    }
+    .estafaniaReyes {
+        font-size: large;
+    }
+    .modalidades{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/*! Responsive 720px */
+@media screen and (max-width:720px){
+    header h1{
+        font-size: 1rem;
+    }
+    .servicioDiv img{
+        width: 25rem;
+        height: 25rem;
+    }
+    .galeria h2{
+        font-size: 1rem;
+    }
+    .container-fluid img {
+        width: 25rem;
+        height: 25rem;
+    }
+    .gridFooter{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 100%;
+        height: 100%;
+        gap: 1rem;
+    }
+}
+/*! Responsive 600px */
+@media screen and (max-width:600px){
+    header nav ul {
+        font-size: 0.7rem;
+    }
+}
+/*! Responsive 464px */
+@media screen and (max-width:464px){
+    header nav ul {
+        font-size: 0.6rem;
+    }
+    .servicioDiv img{
+        width: 21rem;
+        height: 21rem;
+    }
+    .container-fluid img {
+        width: 21rem;
+        height: 21rem;
+    }
+    .estafaniaReyes {
+        font-size: small;
+    }
+}
+/*! Responsive 350px */
+@media screen and (max-width:350px){
+    header h1{
+        font-size: 0.7rem;
+        }   
+    header nav ul {
+        font-size: 0.4rem;
+    }
+}

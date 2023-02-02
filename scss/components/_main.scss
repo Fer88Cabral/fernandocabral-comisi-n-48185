@@ -1,0 +1,129 @@
+/*--INDEX--*/
+/*since*/
+.since{
+    color: nth($colores, 2);
+    font-family:'Arimo', sans-serif;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align-last: center;
+/*!---------------TIME TO RACE---------------*/
+    background-image: url("../img/time\ to\ race.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    h2{
+        font-size: 2rem;
+        --animate-duration: 2s;
+        }   
+    a{
+        color: nth($colores, 3);
+        text-decoration: none;
+        font-size: 1rem;
+        background-color: #1b1b1b;
+        padding: 0.5rem;
+        --animate-duration: 2s;
+    }
+}
+.parrafo{
+    p{
+        color: nth($colores, 3);
+        font-family:'Arimo', sans-serif;
+        background-color: #1b1b1b;
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+/*servicios*/
+.servicio{
+    font-family:'Arimo', sans-serif;
+    background-color: nth($colores, 1);
+    .servicioColorh2{
+        color: nth($colores, 2);
+        font-family:'Arimo', sans-serif;
+        font-weight: 700;
+        text-align: center;
+        background-color: nth($colores, 4);
+        }
+    .servicioDiv{
+        color: nth($colores, 3);
+        padding: 1rem;
+        @include flex(flex, center, column, center, center);
+            h3{
+                color: nth($colores, 2);
+            }
+        }
+    }
+/*galeria*/
+h2{
+    color: nth($colores, 2);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.container-fluid{
+    background-color: nth($colores, 1);
+}
+.estafaniaReyes{
+    font-weight: 700;
+}
+/*formulariodeinscripcion*/
+.fomularioFondocolor{
+    font-weight: 700;
+}
+.inscripcion{
+    color: nth($colores, 2);
+    font-family:'Arimo', sans-serif;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+}
+/*cursos*/
+.modalidadesh2Fondocolor{
+    font-weight: 700;
+}
+.modalidades{
+    font-family:'Arimo', sans-serif;
+    background-color: nth($colores, 1);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+        .modalidadesTitulosh3{
+            color: nth($colores, 2);
+            background-color: nth($colores, 1);
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            display: inline-block;
+            margin: 2rem;
+            padding: 1rem;
+            font-size: 1rem;
+                img{
+                    width: 80%;
+                    height: 80%
+            }
+                p{
+                    color: nth($colores, 3);
+                    font-size: 90%;
+            }
+        }
+    }
+/*acercadenosotros*/
+.acerca{
+    font-family:'Arimo', sans-serif;
+    color: nth($colores, 3);
+    background-color: #1b1b1b;
+    padding: 2rem;
+    text-align: center;
+    .acercaDnosotros{
+        color: nth($colores, 2);
+    }
+}
+
+
